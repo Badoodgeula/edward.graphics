@@ -1,0 +1,116 @@
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.w3-third img:hover{opacity: 1}
+
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	color: #1A00B2;
+}.edward-blue {
+	background-color: #1A00B2;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-resume {
+	background-color: #1A00B2;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-resume:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+}
+.edward-experience {
+background-color: #FFCCCC;
+color: #1A00B2;
+text-decoration: none;
+}
+.edward-experience:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+}
+.edward-skills {
+	background-color: #1A00B2;
+	color: #FF80B4;
+}
+.edward-deep-pink {
+	background-color: #FF0098;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.edward-pink {
+	background-color: #FF80B4;
+}
+.edward-text-pink {
+	background-color: #FF0098;
+	text-decoration: none;
+}
+.edward-button-close:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-button-close {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-button-portfolio {
+	color: #FFCCCC;
+	text-decoration: none;
+}
+.edward-button-portfolio:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-button-about {
+	color: #FF80B4;
+	text-decoration: none;
+}
+.edward-button-about:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-button-experience {
+	color: #FF0098;
+	text-decoration: none;
+}
+.edward-button-experience:hover {
+	background-color: #FF0098;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.edward-light-pink {
+	background-color: #FFCCCC;
+	color: #1A00B2;
+}
+.EG-image {
+	max-width: 150px;
+	margin-top: 90px;
+}
+.EG-image-banner {
+	max-width: 40px;
+	float: left;
+	width: 40%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.eg-hamburger {
+	padding-top: 5px;
+	padding-right: 16px;
+	padding-bottom: 5px;
+	padding-left: 16px;
+	text-decoration: none;
+	background-color: #FFCCCC;
+}
+.eg-padding-title {
+	padding-top: 13px;
+}

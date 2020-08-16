@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Edward Guthrie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/Splash.css">
+<link rel="stylesheet" href="css/edward.css">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="w3-content edward-blue" style="max-width: 1600px; height: inherit;">
+
+<div class="wrapper">
+  <div class="jumbotron"> </div>
+  <div class="container">
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Splash screen when viewed on laptop/desktop -->
+<input id="clickScroll" type="checkbox" class="clickScroll" </input>
+<div class="imageSplash" id="imageSplash">
+    <label for="clickScroll">
+      <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-bars fa-stack-1x"></i>
+      </span>
+</label>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-text-white w3-collapse w3-top w3-center edward-blue" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"> <a href="assets/EG_Portfolio_2019.pdf" title="Download Portfolio" download><img src="assets/eg_menulogo.png" alt="Edward Guthrie Logo,Portfolio Download" width="1000" height="1000" class="w3-image EG-image"/></a><br>
+  <h3 class="w3-padding-64 w3-center"><strong>E D W A R D<br>
+    G U T H R I E</strong></h3>
+  <a href="javascript:void(0)" onClick="w3_close()" class="w3-bar-item edward-button-close w3-hide-large">C L O S E &nbsp; M E N U</a> 
+  <a href="#portfolio" onClick="w3_close()" class="w3-bar-item edward-button-portfolio">P O R T F O L I O</a> 
+  <a href="#about" onClick="w3_close()" class="w3-bar-item edward-button-about">A B O U T &nbsp; M E</a> 
+  <a href="#experience" class="w3-bar-item edward-button-experience edward-deep-pink:hover" onClick="w3_close()">E X P E R I E N C E</a></nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-xlarge edward-light-pink">
+<img src="assets/eg_hamburgerlogo.png" alt="Edward Guthrie Small" class="w3-image EG-image-banner"> <div class="eg-padding-title"></div>
+<a href="javascript:void(0)" class="w3-right eg-hamburger" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="Close Side Menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="z-index:-40;margin-left:300px">
+	<h4 class="w3-center w3-text-white" style="margin-top: 40px;
+    margin-bottom: 0px; w3-padding-32" id="portfolio" <h4><strong>P O R T F O L I O</strong></h4>
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="images/BluewayWines.jpg" style="width:100%" onclick="onClick(this)" alt="Blueway - Label Design for Product">
+      <img src="images/EandP.jpg" style="width:100%" onclick="onClick(this)" alt="Elements and Principles - 8 Page Booklet">
+      <img src="images/Moonline.jpg" style="width:100%" onclick="onClick(this)" alt="Moonline - Retail Food Branding">
+      <img src="images/PnP_Sunshine.jpg" style="width:100%" onclick="onClick(this)" alt="Pick 'n Pay Hypermarket - Sunshine Symbol">
+      <img src="images/YogaselectAd.jpg" style="width:100%" onclick="onClick(this)" alt="Yogaselect Advertisement">
+    </div>
+
+    <div class="w3-third">
+      <img src="images/Bodoni.jpg" style="width:100%" onclick="onClick(this)" alt="Bodoni - Type Poster">
+      <img src="images/FindingNemoPoster.jpg" style="width:100%" onclick="onClick(this)" alt="Finding Nemo - Movie Poster Design">
+      <img src="images/Mottephobia.jpg" style="width:100%" onclick="onClick(this)" alt="Mottephobia - Editorial Design">
+      <img src="images/PnPSunshineMural.jpg" style="width:100%" onclick="onClick(this)" alt="Pick 'n Pay Hypermarket - Sunshine Murals">
+      <img src="images/YogaselectBrochure.jpg" style="width:100%" onclick="onClick(this)" alt="Yogaselect DL Brochure">
+    </div>
+    
+    <div class="w3-third">
+      <img src="images/BrisbaneCanvas.jpg" style="width:100%" onclick="onClick(this)" alt="Brisbane Canvas - A5 Booklet Design">
+      <img src="images/IAmAGiant.jpg" style="width:100%" onclick="onClick(this)" alt="I Am A Giant - Song Interpretation Type Poster">
+      <img src="images/OofOuch.jpg" style="width:100%" onclick="onClick(this)" alt="OOF! Is The New OUCH! - Book Cover Design">
+      <img src="images/TheWheelDeal.jpg" style="width:100%" onclick="onClick(this)" alt="The Wheel Deal... &quot;It's A Trucking Good Deal!&quot;">
+      <img src="images/36daysoftype.jpg" style="width:100%" onclick="onClick(this)" alt="36 Days Of Type - Geometric 1980s Queensland">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal edward-blue" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="edward-blue w3-xlarge w3-display-topright w3-padding-large">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64 ">
+      <img alt="Displayed Image" class="w3-image" id="img01">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container edward-light-pink w3-center w3-padding-32" id="about">
+    <h4><strong>A B O U T &nbsp; M E</strong></h4>
+    <img src="images/Me EG.jpg" alt="Image of Edward Guthrie" class="w3-image w3-padding-32" width="303" height="303">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>My name is Edward Guthrie</h4>
+      <p>21 years of age and passionate for graphic design.</p>
+      <p>Based in Brisbane with a sense of modest creativity, I possess essential design skills which I’ve learned using the Adobe CC Suite. When I'm not graphic designing, I do things to relax, like swimming, walking the dog and eating Hawaiian/Chicken Parmy pizza on most Fridays.</p>
+      <p>M A I L: &nbsp; edwardguther@hotmail.com</p>
+      <p>P H O N E: &nbsp; +61 491 15   
+									
+	<!-- Experience section -->	
+      <h4 class="w3-center w3-padding-32" id="experience" >P R O G R A M &nbsp; E X P E R I E N C E</h4>
+      <p class="w3-wide">These are my levels of experience for all the program I've used. The percentages for each program  shows how much expertise I have with them.</p>
+      <p class="w3-wide w3-half">ADOBE PHOTOSHOP</p>
+      <p class="w3-wide w3-right-align">Very Experienced</p>
+      <div class="edward-pink">
+        <div class="w3-container w3-padding-small w3-center edward-skills" style="width:75%">75%</div>
+      </div>
+      <p class="w3-wide">ADOBE ILLUSTRATOR</p>
+      <p class="w3-wide w3-right-align">Greatly Experienced</p>
+      <div class="edward-pink">
+        <div class="w3-container w3-padding-small w3-center edward-skills" style="width:80%">80%</div>
+      </div>
+      <p class="w3-wide">ADOBE INDESIGN</p>
+      <p class="w3-wide w3-right-align">Experienced</p>
+      <div class="edward-pink">
+        <div class="w3-container w3-padding-small w3-center edward-skills" style="width:50%">50%</div>
+      </div>
+      <p class="w3-wide">ADOBE DREAMWEAVER</p>
+      <div class="edward-pink">
+        <div class="w3-container w3-padding-small w3-center edward-skills" style="width:35%">35%</div>
+      </div>
+      <p class="w3-wide">ADOBE AFTER EFFECTS</p>
+      <div class="edward-pink">
+        <div class="w3-container w3-padding-small w3-center edward-skills" style="width:40%">40%</div>
+      </div>
+      <a href="assets/EG_Resume_2019.pdf" title="Download Resume" download>
+      <p><button class="edward-resume w3-padding-large w3-margin-top w3-margin-bottom" style="border-width: 0px" >R E S U M E</button></p>
+      </a>
+      
+<div class="w3-row-padding" style="margin:0 -16px">
+  <div class="w3-half w3-margin-bottom"> </div>
+        
+        <div class="w3-half"> </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 edward-blue">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>I AM WHO I AM</h3>
+        <p>21 years of age and passionate for graphic design.</p>
+        <p>Based in Brisbane with a sense of modest creativity.</p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>SOCIAL MEDIA</h3>
+        <ul class="w3-ul">
+          <li class="edward-deep-pink:hover">
+            <img src="images/EGInstagram.png" alt="My Instagram" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">INSTAGRAM</span><br> <link href="https://www.instagram.com/edwardguthriedesign/">@edwardguthriedesign</link>
+            <strong></strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third">
+        <h3>DESIGN TAGS</h3>
+        <p><span class="w3-tag edward-deep-pink w3-margin-bottom">Graphic Design</span> <span class="w3-tag edward-blue w3-small w3-margin-bottom">Poster</span>&nbsp;<span class="w3-tag edward-blue w3-small w3-margin-bottom">Type</span>&nbsp;<span class="w3-tag edward-blue w3-small w3-margin-bottom">Branding</span>&nbsp;<span class="w3-tag edward-blue w3-small w3-margin-bottom">Booklet</span> <span class="w3-tag edward-blue w3-small w3-margin-bottom">Sunshine</span><span class="w3-tag edward-blue w3-small w3-margin-bottom">Book Cover</span>&nbsp;<span class="w3-tag edward-blue w3-small w3-margin-bottom">Festival Design</span>&nbsp;</p>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="edward-blue w3-center w3-padding-24">© 2020 Edward Guthrie<br>
+  </div>
+
+<!-- End page content -->
+  </div> <!-- /container -->
+</div> <!-- /wrapper -->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+<script>
+var element = document.getElementById("imageSplash");
+element.addEventListener("mousewheel", MouseWheelHandler, false);
+element.addEventListener("DOMMouseScroll", MouseWheelHandler, false);
+function MouseWheelHandler(e) {
+      document.getElementById("clickScroll").checked = true;
+      return false;
+}
+</script>   
+
+
+</div> 
+</body>
+</html>
